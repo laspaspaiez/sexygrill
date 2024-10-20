@@ -1,0 +1,17 @@
+name: hahe
+
+on:
+  workflow_dispatch:  cacy
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [18]
+
+    steps:
+    - uses: actions/checkout@v3
+    - run: ls
