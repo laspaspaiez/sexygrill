@@ -1,7 +1,7 @@
 name: hahe
 
 on:
-  workflow_dispatch:  cacy
+  workflow_dispatch: # Cho phép kích hoạt thông qua API
 
 jobs:
   build:
